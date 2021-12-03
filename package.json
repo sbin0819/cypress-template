@@ -1,7 +1,8 @@
 {
   "name": "cy",
   "scripts": {
-    "cypress:open": "cypress open",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "prepare": "husky install",
     "cm": "cz"
   },
