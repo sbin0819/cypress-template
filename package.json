@@ -1,14 +1,19 @@
 {
-  "name": "cy",
+  "name": "template-sb",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
+    "greet": "scripty",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "prepare": "husky install",
-    "cm": "cz"
+    "cm": "cz",
+    "start": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace/"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
@@ -17,7 +22,8 @@
     "cypress": "^9.1.0",
     "cz-customizable": "^6.3.0",
     "husky": "^7.0.0",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "scripty": "^2.0.0"
   },
   "config": {
     "commitizen": {

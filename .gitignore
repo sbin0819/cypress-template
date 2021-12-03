@@ -1,3 +1,10 @@
-node_modules/
+node_modules
+.next
+.env
+out
+yarn.lock
+__snapshots__
+__image_snapshots__
+storybook-static
 cypress/videos
 cypress/screenshots
