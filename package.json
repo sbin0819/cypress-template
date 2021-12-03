@@ -1,5 +1,9 @@
 {
   "name": "cy",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
@@ -12,7 +16,8 @@
     "commitlint-config-gitmoji": "^2.2.5",
     "cypress": "^9.1.0",
     "cz-customizable": "^6.3.0",
-    "husky": "^7.0.0"
+    "husky": "^7.0.0",
+    "lerna": "^4.0.0"
   },
   "config": {
     "commitizen": {
